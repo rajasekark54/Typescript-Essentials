@@ -18,4 +18,6 @@ function checkValue(value: string | null | undefined) {
   }
 }
 
+console.log('----------');
+
 export {};
