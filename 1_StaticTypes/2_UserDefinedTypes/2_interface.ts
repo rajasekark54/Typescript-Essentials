@@ -28,4 +28,24 @@ const employee: Employee = {
 
 console.log(employee);
 
-// export default {};
+// Merging Interfaces
+
+interface Car {
+  brand: string;
+}
+
+interface Car {
+  model: string;
+}
+
+interface Car {
+  year: number;
+}
+
+const myCar: Car = {
+  brand: 'Toyota',
+  model: 'Corolla',
+  year: 2021,
+};
+
+console.log(myCar); // Output: { brand: 'Toyota', model: 'Corolla', year: 2021 }
